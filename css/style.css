@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5,
 
 @media (max-width: 991px) and (min-width: 551px) {
   .ftco-cover {
-    margin-top: -78px;
+    margin-top: -80px;
     background-position: 40% 15%; 
   }
 }
@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5,
 }
 
 .ponuda-link-header {
-  margin-bottom: -270px;
+  /*margin-bottom: -770px;*/
   max-width: 250px;
 }
 
