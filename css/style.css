@@ -346,6 +346,28 @@ textarea.form-control {
         color: white !important;
         border: 2px solid #F96D00; }
 
+.menu-comments {
+  font-size: 2.2rem;
+}
+
+.menu-item h5 {
+  font-size: 1.4rem;
+}
+
+.menu-item td {
+  font-size: 1.2rem;
+  width: 100px;
+  font-family: "Playfair Display", serif !important;
+}
+
+.pizza-size {
+  color: black;
+}
+
+.pizza-price {
+  color: #F96D00;
+}
+
 .ftco-animate {
   opacity: 0;
   visibility: hidden; }
