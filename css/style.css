@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5,
   margin-top: 70px;
 }
 
-@media (max-width: 991px) and (min-width: 551px) {
+@media (max-width: 991px) and (min-width: 550px) {
   .ftco-cover {
     margin-top: -80px;
     background-position: 40% 15%; 
@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5,
 
 @media (max-width: 550px){
   .ftco-cover {
-    margin-top: -78px;
+    margin-top: -80px;
     background-position: 40% 15%; 
   }
 }
@@ -420,7 +420,7 @@ textarea.form-control {
 .ftco-animate {
   opacity: 0;
   visibility: hidden;
-  text-align: center !important;
+  /*text-align: center !important;*/
   padding: 10px; }
 
 .bg-primary {
