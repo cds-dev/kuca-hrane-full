@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5,
   z-index: 3; }
   @media screen and (max-width: 991px) {
     .ftco-navbar-light {
-      background: #fff !important;
+      background: transparent !important;
       top: 0;
       position: relative; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
@@ -139,15 +139,23 @@ h1, h2, h3, h4, h5,
   background-repeat: no-repeat; }
 
 .ftco-cover {
-  background-position: 30% 15%; }
+  background-position: 30% 0; }
 
 .ftco-heading {
   margin-top: 70px;
 }
 
+@media (max-width: 991px) and (min-width: 551px) {
+  .ftco-cover {
+    margin-top: -78px;
+    background-position: 40% 15%; 
+  }
+}
+
 @media (max-width: 550px){
   .ftco-cover {
-    background-position: 40% 95%; 
+    margin-top: -78px;
+    background-position: 40% 15%; 
   }
 }
 
