@@ -350,14 +350,43 @@ textarea.form-control {
   font-size: 2.2rem;
 }
 
-.menu-item h5 {
+.menu-item h5, .italijanska-titles {
   font-size: 1.4rem;
+}
+
+.italijanska-titles td {
+  border: 1px solid black; 
+  padding: 5px;
 }
 
 .menu-item td {
   font-size: 1.2rem;
   width: 100px;
   font-family: "Playfair Display", serif !important;
+}
+
+@media (max-width: 570px) {
+  .menu-comments {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .menu-item td {
+    font-size: 1rem;
+  }
+
+  .menu-item img {
+      width: 75px;
+      border-radius: 50%;
+  }
+}
+
+@media (max-width: 370px) {
+  .menu-item img {
+      width: 55px;
+      border-radius: 50%;
+  }
 }
 
 .pizza-size {
