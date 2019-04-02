@@ -141,7 +141,7 @@ $(document).ready(function($) {
 
 	// navigation
 	var OnePageNav = function() {
-		$(".smoothscroll[href^='#'], #ftco-nav ul li a[href^='#']").on('click', function(e) {
+		$(".smoothscroll[href^='#'], #ftco-nav ul li a[href^='#'], #ponuda-link-header").on('click', function(e) {
 		 	e.preventDefault();
 
 		 	var hash = this.hash,

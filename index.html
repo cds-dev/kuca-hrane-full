@@ -24,8 +24,10 @@
 
 <body data-spy="scroll" data-target="#ftco-navbar" data-offset="200">
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">LOGO</a>
+        <div class="container text-center">
+            <a class="navbar-brand p-0" href="index.html">
+                <img class="img-fluid logo-img" src="images/full-11.png" alt="full logo">
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"></span>
             </button>
@@ -35,7 +37,7 @@
                     <li class="nav-item"><a href="#section-about" class="nav-link text-center">O nama</a></li>
                     <li class="nav-item"><a href="#section-offer" class="nav-link text-center">Akcije i Promocije</a></li>
                     <li class="nav-item"><a href="#section-menu" class="nav-link text-center">Ponuda</a></li>
-                    <li class="nav-item"><a href="#section-gallery" class="nav-link text-center">Galerija</a></li>
+                    <!-- <li class="nav-item"><a href="#section-gallery" class="nav-link text-center">Galerija</a></li> -->
                     <li class="nav-item"><a href="#section-contact" class="nav-link text-center">Kontakt</a></li>
                 </ul>
             </div>
@@ -46,10 +48,11 @@
     <section class="ftco-cover" style="background-image: url(images/bg_31.jpg);" id="section-home">
         <div class="container">
             <div class="row align-items-center justify-content-center text-center ftco-vh-100">
-                <div class="col-md-12">
+                <div class="col-md-12 mt-5">
                     <h1 class="ftco-heading ftco-animate mb-3">Dobrodošli u Kuću hrane Full</h1>
                     <h2 class="h5 ftco-subheading mb-5 ftco-animate"><!-- by  --></h2>
-                    <p><a href="https://free-template.co/" target="_blank" class="btn btn-outline-white btn-lg ftco-animate" data-toggle="modal" data-target="#reservationModal">Pogledajte ponudu</a></p>
+                    <!-- <p><a href="https://free-template.co/" target="_blank" class="btn btn-outline-white btn-lg ftco-animate" data-toggle="modal" data-target="#reservationModal">Pogledajte ponudu</a></p> -->
+                    <p><a id="ponuda-link-header" href="#section-menu" target="_blank" class="btn btn-outline-white btn-lg ftco-animate">Pogledajte ponudu</a></p>
                 </div>
             </div>
         </div>
@@ -68,7 +71,7 @@
                 </div>
                 <div class="col-lg-1"></div>
                 <div class="col-lg-6 ftco-animate img" data-animate-effect="fadeInRight">
-                    <img src="images/o-nama1.jpg" alt="brašnjave ruke">
+                    <img src="images/o-nama1.jpg" alt="kuvar u kuhinji">
                 </div>
             </div>
         </div>
@@ -79,50 +82,50 @@
         <div class="dummy-services-section services-section mt-5"></div>
         <div class="container-fluid">
             <!-- icon-services-area -->
-            <div class="section mt-5">
+            <div class="section mt-4">
                 <!-- <div class="container-fluid"> -->
                 <div class="row">
                     <div class="col-lg-6 col-xl-3" data-aos="fade-up">
                         <div class="media feature-icon d-block text-center">
-                            <div class="icon">
+                            <div class="icon mt-5">
                                 <span class="flaticon-soup"></span>
                             </div>
                             <div class="media-body">
                                 <h3>Provereni recepti</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur suscipit repudiandae facilis incidunt unde saepe</p>
+                                <p class="pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur suscipit repudiandae facilis incidunt unde saepe</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-3" data-aos="fade-up" data-aos-delay="100">
                         <div class="media feature-icon d-block text-center">
-                            <div class="icon">
+                            <div class="icon mt-5">
                                 <span class="flaticon-vegetables"></span>
                             </div>
                             <div class="media-body">
                                 <h3>Sveži sastojci</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur suscipit repudiandae facilis incidunt unde saepe</p>
+                                <p class="pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur suscipit repudiandae facilis incidunt unde saepe</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-3" data-aos="fade-up" data-aos-delay="300">
                         <div class="media feature-icon d-block text-center">
-                            <div class="icon">
+                            <div class="icon mt-5">
                                 <span class="flaticon-pancake"></span>
                             </div>
                             <div class="media-body">
                                 <h3>Ukusi za svakoga</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur suscipit repudiandae facilis incidunt unde saepe</p>
+                                <p class="pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur suscipit repudiandae facilis incidunt unde saepe</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-3" data-aos="fade-up" data-aos-delay="500">
                         <div class="media feature-icon d-block text-center">
-                            <div class="icon">
+                            <div class="icon mt-5">
                                 <span class="flaticon-tray"></span>
                             </div>
                             <div class="media-body">
                                 <h3>Besplatna dostava?</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur suscipit repudiandae facilis incidunt unde saepe</p>
+                                <p class="pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur suscipit repudiandae facilis incidunt unde saepe</p>
                             </div>
                         </div>
                     </div>
@@ -135,7 +138,7 @@
 
         <div class="container-fluid">
             <div class="row" id="section-offer">
-                <div class="col-md-12 text-center my-5 pt-5 ftco-animate">
+                <div class="col-md-12 text-center my-5 pt-2 ftco-animate">
                     <h4 class="ftco-sub-title">promocije i akcije</h4>
                     <h2 class="display-4">Nesto super &amp; nemam pojma</h2>
                     <div class="row justify-content-center">
@@ -314,7 +317,7 @@
                                         <img class="mr-3" src="images/menu_1.jpg" class="img-fluid" alt="">
                                         <div class="media-body">
                                             <h5 class="mt-0">Goveđi gulaš 350g + Pire 250g</h5>
-                                            <p><!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere ratione veritatis pariatur atque, mollitia illo. --></p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere ratione veritatis pariatur atque, mollitia illo.</p>
                                             <h6 class="text-primary menu-price">450.00</h6>
                                         </div>
                                     </div>
@@ -1100,7 +1103,9 @@
     </section>
     <!-- END section -->
 
-    <section class="ftco-section" id="section-gallery">
+    <!-- <div class="dummy-services-section services-section mt-3 mb-5"></div> -->
+
+    <!-- <section class="ftco-section" id="section-gallery">
         <div class="container">
             <div class="row ftco-custom-gutters">
                 <div class="col-md-12 text-center mb-5 ftco-animate">
@@ -1143,17 +1148,17 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- END section -->
 
     <section class="ftco-section bg-light" id="section-contact">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 text-center mb-5 ftco-animate">
+                <div class="col-md-12 text-center mb-5 mx-4 ftco-animate">
                     <h2 class="display-4">Kontakt</h2>
                     <div class="row justify-content-center">
                         <div class="col-md-7">
-                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, hic ipsa ducimus minus asperiores unde quod aperiam sint totam suscipit!</p>
+                            <p class="lead px-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, hic ipsa ducimus minus asperiores unde quod aperiam sint totam suscipit!</p>
                         </div>
                     </div>
                 </div>
@@ -1180,12 +1185,19 @@
         </div>
     </section>
     <!-- <div id="map"></div> -->
-    <div class="mapouter">
-        <div class="gmap_canvas">
-            <iframe class="p-3" width="1519" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=deska%C5%A1eva%204&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-            <a href="https://www.crocothemes.net"></a>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 p-0">
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe class="i-map p-0 p-md-3" id="gmap_canvas" src="https://maps.google.com/maps?q=deska%C5%A1eva%204&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <a href="https://www.crocothemes.net"></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    
     <!-- END section -->
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
