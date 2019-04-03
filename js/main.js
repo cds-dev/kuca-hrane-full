@@ -164,7 +164,7 @@ $(document).ready(function($) {
 	OnePageNav();
 
 	var OnePageMyScroll = function() {
-		$("#ponuda-link-header").on('click', function(e) {
+		$("#specijalna-ponuda-link, #ponuda-link").on('click', function(e) {
 		 	e.preventDefault();
 
 		 	var hash = this.hash,

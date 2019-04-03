@@ -131,7 +131,19 @@ h1, h2, h3, h4, h5,
   /*margin-top: -3px;*/
   border: 5px double darkorange;
   background: white;
+}
 
+.footer-title {
+  font-size: 23px;
+  color: rgba(255, 255, 255, 0.3);
+  margin-top: 8px;
+  border-top: 2px solid #F96D00;
+}
+
+.logo-footer-img {
+  width: 150px;
+  filter: invert(0.20) sepia(0.30);
+  border: none;
 }
 
 .bg-image, .ftco-cover {
@@ -308,14 +320,14 @@ h1, h2, h3, h4, h5,
       color: #fff; }
 
 .form-control {
-  border: 2px solid rgba(0, 0, 0, 0.2);
+  border: 2px solid lightgray;
   height: 55px !important;
   background: #fff !important;
   color: #000 !important;
   font-size: 18px;
   border-radius: 0px; }
   .form-control:focus, .form-control:active {
-    border: 2px solid #000; }
+    border: 2px solid #F96D00; }
 
 textarea.form-control {
   height: inherit !important; }
