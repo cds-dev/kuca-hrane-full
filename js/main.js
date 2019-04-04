@@ -163,6 +163,7 @@ $(document).ready(function($) {
 	};
 	OnePageNav();
 
+	// spec links navigation
 	var OnePageMyScroll = function() {
 		$("#specijalna-ponuda-link, #ponuda-link").on('click', function(e) {
 		 	e.preventDefault();
@@ -217,4 +218,48 @@ $(document).ready(function($) {
 
 
 });
+
+const kuvanaClick = document.getElementById("pills-kuvana-jela-tab");
+const italijanskaClick = document.getElementById("italijanska-kuhinja-tab");
+const obrociClick = document.getElementById("obroci-tab");
+const specijalitetiClick = document.getElementById("specijaliteti-tab");
+const pohovanoClick = document.getElementById("pohovano-tab");
+const mesoClick = document.getElementById("meso-tab");
+const sendviciClick = document.getElementById("sendvici-tab");
+const palacinkeClick = document.getElementById("palacinke-tab");
+const salateClick = document.getElementById("salate-tab");
+
+const target = document.getElementById("menu-target");
+
+
+
+
+kuvanaClick.addEventListener("click", function() {
+	target.scrollIntoView();
+})
+italijanskaClick.addEventListener("click", function() {
+	target.scrollIntoView();
+})
+obrociClick.addEventListener("click", function() {
+	target.scrollIntoView();
+})
+specijalitetiClick.addEventListener("click", function() {
+	target.scrollIntoView();
+})
+pohovanoClick.addEventListener("click", function() {
+	target.scrollIntoView();
+})
+mesoClick.addEventListener("click", function() {
+	target.scrollIntoView();
+})
+sendviciClick.addEventListener("click", function() {
+	target.scrollIntoView();
+})
+palacinkeClick.addEventListener("click", function() {
+	target.scrollIntoView();
+})
+salateClick.addEventListener("click", function() {
+	target.scrollIntoView();
+})
+
 
