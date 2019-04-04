@@ -144,6 +144,7 @@ h1, h2, h3, h4, h5,
   color: rgba(255, 255, 255, 0.3);
   margin-top: 8px;
   border-top: 2px solid #F96D00;
+  letter-spacing: 1px;
 }
 
 .logo-footer-img {
