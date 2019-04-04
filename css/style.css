@@ -356,6 +356,11 @@ textarea.form-control {
       padding-top: 5em;
       padding-bottom: 5em; } }
 
+.menu-target-link {
+  position: absolute;
+  top: -53px;
+}
+
 .ftco-tab-nav {
   padding: 0;
   margin: 0;
