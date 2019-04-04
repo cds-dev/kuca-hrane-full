@@ -29,6 +29,10 @@ h1, h2, h3, h4, h5,
 
 .text-primary {
   color: #F96D00 !important; }
+.nav-p {
+  font-size: 15px;
+  color: #F96D00;
+}
 
 .ftco-navbar-light {
   background: transparent !important;
