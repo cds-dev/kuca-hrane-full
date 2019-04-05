@@ -268,3 +268,14 @@ salateClick.addEventListener("click", function() {
 // });
 
 });
+let burger = document.querySelector(`.navbar-toggler`);
+burger.style.display = "none";
+
+document.onscroll = () => {
+  if (window.scrollY >= 370) {
+   burger.style.display = "block";
+  }
+  else {
+  	burger.style.display = "none";
+  }
+}
