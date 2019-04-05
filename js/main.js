@@ -318,7 +318,7 @@ submit.onclick = (e) => {
 	}
 	else {
 		greska.innerHTML = "";
-		// var link = `mailto:mimosveta@yahoo.com&subject="poruka sa sajta"&body=${poruka.value}`;
+		// var link = `mailto:mail@yahoo.com&subject="poruka sa sajta"&body=${poruka.value}`;
 
   // window.location.href = link;
   console.log("pošalji mail")
