@@ -281,3 +281,42 @@ document.onscroll = () => {
   	burger.style.display = "none";
   }
 }
+
+// mailer
+
+const emreg = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/g,
+						textreg = /[A-Za-z.,?!"';:čćžšđČĆŽŠĐ ]/g,
+						imereg = /[A-Za-zčćžšđČĆŽŠĐ ]/g
+						ime = document.querySelector('#name'),
+						em = document.querySelector('#email'),
+						poruka = document.querySelector('#message'),
+						greska = document.querySelector('.greska'),
+						submit = document.querySelector('#mailer');
+
+submit.onclick = (e) => {
+	e.preventDefault();
+	if(ime.value == "") {
+		greska.innerHTML = "Unesite vaše ime!";
+	}
+	else if (!ime.value.match(imereg)) {
+		greska.innerHTML = "Proverite kako ste uneli vaše ime!";
+	}
+	else if (em.value == "") {
+		greska.innerHTML = "Unesite vaš email!";
+	}
+	else if (!em.value.match(emreg)) {
+		greska.innerHTML = "Proverite kako ste uneli vaš email!";
+	}
+	else if (poruka.value == "") {
+		greska.innerHTML = "Niste uneli poruku!";
+	}
+	else if (poruka.value.length > 1800) {
+		greska.innerHTML = "Vaša poruka mora biti kraća od 1800 karaktera!";
+	}
+	else {
+		// var link = `mailto:mimosveta@yahoo.com&subject="poruka sa sajta"&body=${poruka.value}`;
+
+  // window.location.href = link;
+  console.log("pošalji mail")
+	}
+}
