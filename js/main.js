@@ -235,31 +235,34 @@ const target = document.getElementById("menu-target");
 
 
 kuvanaClick.addEventListener("click", function() {
-	target.scrollIntoView();
+	target.scrollIntoView({behavior: 'smooth'});
 })
 italijanskaClick.addEventListener("click", function() {
-	target.scrollIntoView();
+	target.scrollIntoView({behavior: 'smooth'});
 })
 obrociClick.addEventListener("click", function() {
-	target.scrollIntoView();
+	target.scrollIntoView({behavior: 'smooth'});
 })
 specijalitetiClick.addEventListener("click", function() {
-	target.scrollIntoView();
+	target.scrollIntoView({behavior: 'smooth'});
 })
 pohovanoClick.addEventListener("click", function() {
-	target.scrollIntoView();
+	target.scrollIntoView({behavior: 'smooth'});
 })
 mesoClick.addEventListener("click", function() {
-	target.scrollIntoView();
+	target.scrollIntoView({behavior: 'smooth'});
 })
 sendviciClick.addEventListener("click", function() {
-	target.scrollIntoView();
+	target.scrollIntoView({behavior: 'smooth'});
 })
 palacinkeClick.addEventListener("click", function() {
-	target.scrollIntoView();
+	target.scrollIntoView({behavior: 'smooth'});
 })
 salateClick.addEventListener("click", function() {
-	target.scrollIntoView();
+	target.scrollIntoView({behavior: 'smooth'});
 })
 
-
+//  active link on click
+$(document).on('click', 'ul li', function() {
+  $(this).addClass('active').siblings().removeClass('active');
+});

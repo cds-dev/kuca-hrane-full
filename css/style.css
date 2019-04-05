@@ -16,9 +16,10 @@ a {
   transition: .3s all ease;
   color: #F96D00; }
 
-a:hover {
-    text-decoration: none;
-    color: #F96D00; }
+.ftco-navbar-light.scrolled .nav-link:hover {
+    text-decoration: none !important;
+    color: #F96D00 !important; }
+
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
@@ -29,9 +30,11 @@ h1, h2, h3, h4, h5,
 
 .text-primary {
   color: #F96D00 !important; }
+
 .nav-p {
-  font-size: 15px;
+  font-size: 20px;
   color: #F96D00;
+  /*font-weight: 500;*/
 }
 
 .ftco-navbar-light {
@@ -48,14 +51,23 @@ h1, h2, h3, h4, h5,
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
     font-size: 16px;
     color: rgba(0,0,0,0);
-    padding-top: 30px;
-    padding-bottom: 30px;
+    /*padding-top: 30px;
+    padding-bottom: 30px;*/
     padding-left: 20px;
     padding-right: 20px; }
+
+   .ftco-navbar-light .navbar-nav > .nav-item >.nav-link-custom {
+    font-size: 18px;
+    color: rgba(249, 109, 0, 0);
+    /*padding-top: 30px;
+    padding-bottom: 30px;*/
+    padding-left: 20px;
+    padding-right: 20px; }
+   }
     @media screen and (max-width: 960px) {
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        /*padding-top: 10px;
+        padding-bottom: 10px;*/
         padding-left: 0px;
         padding-right: 0px; } }
   .ftco-navbar-light .navbar-nav > .nav-item.ftco-cta a {
@@ -86,7 +98,8 @@ h1, h2, h3, h4, h5,
     padding-right: 0;
     text-transform: uppercase;
     font-size: 16px;
-    letter-spacing: .1em; }
+    letter-spacing: .1em;
+    margin-right: 30px; }
   .ftco-navbar-light.scrolled {
     position: fixed;
     right: 0;
@@ -115,9 +128,13 @@ h1, h2, h3, h4, h5,
       font-size: 16px;
       letter-spacing: .1em; }
     .ftco-navbar-light.scrolled .nav-link {
-      padding-top: 0.7rem !important;
-      padding-bottom: 0.7rem !important;
+      /*padding-top: 0.7rem !important;
+      padding-bottom: 0.7rem !important;*/
       color: #000 !important; }
+    .ftco-navbar-light.scrolled .nav-link-custom {
+      /*padding-top: 0.7rem !important;
+      padding-bottom: 0.7rem !important;*/
+      color: rgba(249, 109, 0) !important; }
       .ftco-navbar-light.scrolled .nav-link.active {
         color: #F96D00 !important; }
     .ftco-navbar-light.scrolled.awake {
