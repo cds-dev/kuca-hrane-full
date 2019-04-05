@@ -217,19 +217,19 @@ $(document).ready(function($) {
 
 
 
-});
 
-const kuvanaClick = document.getElementById("pills-kuvana-jela-tab");
-const italijanskaClick = document.getElementById("italijanska-kuhinja-tab");
-const obrociClick = document.getElementById("obroci-tab");
-const specijalitetiClick = document.getElementById("specijaliteti-tab");
-const pohovanoClick = document.getElementById("pohovano-tab");
-const mesoClick = document.getElementById("meso-tab");
-const sendviciClick = document.getElementById("sendvici-tab");
-const palacinkeClick = document.getElementById("palacinke-tab");
-const salateClick = document.getElementById("salate-tab");
 
-const target = document.getElementById("menu-target");
+let kuvanaClick = document.getElementById("pills-kuvana-jela-tab");
+let italijanskaClick = document.getElementById("italijanska-kuhinja-tab");
+let obrociClick = document.getElementById("obroci-tab");
+let specijalitetiClick = document.getElementById("specijaliteti-tab");
+let pohovanoClick = document.getElementById("pohovano-tab");
+let mesoClick = document.getElementById("meso-tab");
+let sendviciClick = document.getElementById("sendvici-tab");
+let palacinkeClick = document.getElementById("palacinke-tab");
+let salateClick = document.getElementById("salate-tab");
+
+let target = document.getElementById("menu-target");
 
 
 
@@ -262,7 +262,9 @@ salateClick.addEventListener("click", function() {
 	target.scrollIntoView({behavior: 'smooth'});
 })
 
-//  active link on click
-$(document).on('click', 'ul li', function() {
-  $(this).addClass('active').siblings().removeClass('active');
+// //  active link on click
+// $(document).on('click', 'ul li', function() {
+//   $(this).addClass('active').siblings().removeClass('active');
+// });
+
 });
