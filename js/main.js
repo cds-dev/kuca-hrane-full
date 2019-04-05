@@ -310,6 +310,9 @@ submit.onclick = (e) => {
 	else if (poruka.value == "") {
 		greska.innerHTML = "Niste uneli poruku!";
 	}
+	else if (!poruka.value.match(textreg)) {
+		greska.innerHTML = "Proverite sadržaj svoje poruke!";
+	}
 	else if (poruka.value.length > 1800) {
 		greska.innerHTML = "Vaša poruka mora biti kraća od 1800 karaktera!";
 	}
