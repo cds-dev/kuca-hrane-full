@@ -356,10 +356,14 @@ textarea.form-control {
       padding-top: 5em;
       padding-bottom: 5em; } }
 
-.menu-target-link {
-  position: absolute;
-  top: 270px;
+
+@media screen and (max-width: 576px) {
+  .menu-target-link {
+    position: absolute;
+    top: 290px;
+  }
 }
+
 
 .ftco-tab-nav {
   padding: 0;
