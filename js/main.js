@@ -229,7 +229,7 @@ let sendviciClick = document.getElementById("sendvici-tab");
 let palacinkeClick = document.getElementById("palacinke-tab");
 let salateClick = document.getElementById("salate-tab");
 
-//let tabs = document.querySelectorAll(`nav-item`);
+let tabs = document.querySelectorAll(`nav-item`);
 
 let target = document.getElementById("menu-target");
 
