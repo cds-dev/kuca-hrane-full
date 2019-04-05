@@ -229,7 +229,7 @@ let sendviciClick = document.getElementById("sendvici-tab");
 let palacinkeClick = document.getElementById("palacinke-tab");
 let salateClick = document.getElementById("salate-tab");
 
-let tabs = document.querySelectorAll(`nav-item`);
+//let tabs = document.querySelectorAll(`nav-item`);
 
 let target = document.getElementById("menu-target");
 
@@ -274,7 +274,7 @@ let burger = document.querySelector(`.navbar-toggler`);
 burger.style.display = "none";
 
 document.onscroll = () => {
-  if (window.scrollY >= 370) {
+  if (window.scrollY >= 370 && window.innerWidth < 1200) {
    burger.style.display = "block";
   }
   else {
