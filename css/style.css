@@ -269,8 +269,14 @@ h1, h2, h3, h4, h5,
 .ftco-uppercase {
   font-size: 30px; }
 
+.palacinka-slatka-img {
+  width: 
+}
+
 .menu-item {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  background: #F1EFED !important;
+  padding: 7px; }
   .menu-item img {
     width: 100px;
     border-radius: 50%; }
