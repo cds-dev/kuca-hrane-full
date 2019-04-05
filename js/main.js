@@ -317,6 +317,7 @@ submit.onclick = (e) => {
 		greska.innerHTML = "Vaša poruka mora biti kraća od 1800 karaktera!";
 	}
 	else {
+		greska.innerHTML = "";
 		// var link = `mailto:mimosveta@yahoo.com&subject="poruka sa sajta"&body=${poruka.value}`;
 
   // window.location.href = link;
