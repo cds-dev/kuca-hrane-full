@@ -454,15 +454,15 @@ textarea.form-control {
   }
 
   .menu-item img {
-      width: 75px;
-      border-radius: 50%;
+      /*width: 75px;*/
+     /* border-radius: 50%*/;
   }
 }
 
 @media (max-width: 370px) {
   .menu-item img {
-      width: 55px;
-      border-radius: 50%;
+      /*width: 55px;*/
+      /*border-radius: 50%;*/
   }
 }
 
