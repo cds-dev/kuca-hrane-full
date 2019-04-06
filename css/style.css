@@ -290,6 +290,10 @@ h1, h2, h3, h4, h5,
     font-family: "Playfair Display", serif;
     font-size: 24px; }
 
+.pizza-img {
+  width: 130px;
+}
+
 @media screen and (max-width: 768px) {
   .display-4 {
     font-size: 37px; } }
