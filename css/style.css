@@ -290,6 +290,21 @@ h1, h2, h3, h4, h5,
     font-family: "Playfair Display", serif;
     font-size: 24px; }
 
+    .menu-price-proba {
+    position: absolute; 
+    bottom:47px;
+    left: 19%; }
+
+@media (max-width: 510px) {
+  .menu-price-mt {
+    /*margin-top: 48px;*/
+  }
+
+  .grilovano {
+    font-size: 19px !important;
+  }
+}
+
 .pizza-img {
   width: 130px;
 }
