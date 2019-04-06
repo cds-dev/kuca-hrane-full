@@ -277,18 +277,14 @@ h1, h2, h3, h4, h5,
   border-bottom: 2px solid darkorange;
 }
 
-/*.media-border-r {
-  border-right: 2px solid darkorange;
-}*/
-
 .menu-item {
   margin-bottom: 30px;
   background: #F1EFED !important;
   padding: 7px;
   border: 2px solid darkorange; }
   .menu-item img {
-    width: 100px;
-    border-radius: 50%; }
+    width: 150px;
+    /*border-radius: 50%;*/ }
   .menu-item .menu-price {
     font-family: "Playfair Display", serif;
     font-size: 24px; }
