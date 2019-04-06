@@ -299,33 +299,41 @@ const emreg = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(
 						submit = document.querySelector('#mailer');
 
 submit.onclick = (e) => {
-	e.preventDefault();
+	//e.preventDefault();
 	if(ime.value == "") {
 		greska.innerHTML = "Unesite vaše ime!";
+		return false;
 	}
 	else if (!ime.value.match(imereg)) {
 		greska.innerHTML = "Proverite kako ste uneli vaše ime!";
+		return false;
 	}
 	else if (em.value == "") {
 		greska.innerHTML = "Unesite vaš email!";
+		return false;
 	}
 	else if (!em.value.match(emreg)) {
 		greska.innerHTML = "Proverite kako ste uneli vaš email!";
+		return false;
 	}
 	else if (poruka.value == "") {
 		greska.innerHTML = "Niste uneli poruku!";
+		return false;
 	}
 	else if (!poruka.value.match(textreg)) {
 		greska.innerHTML = "Proverite sadržaj svoje poruke!";
+		return false;
 	}
 	else if (poruka.value.length > 1800) {
 		greska.innerHTML = "Vaša poruka mora biti kraća od 1800 karaktera!";
+		return false;
 	}
 	else {
 		greska.innerHTML = "";
 		// var link = `mailto:mail@yahoo.com&subject="poruka sa sajta"&body=${poruka.value}`;
-
+  
   // window.location.href = link;
-  console.log("pošalji mail")
+  console.log("pošalji mail");
+  return true;
 	}
 }
