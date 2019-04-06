@@ -229,11 +229,16 @@ let sendviciClick = document.getElementById("sendvici-tab");
 let palacinkeClick = document.getElementById("palacinke-tab");
 let salateClick = document.getElementById("salate-tab");
 
-//let tabs = document.querySelectorAll(`nav-item`);
+// let tabs = document.querySelectorAll(`.nav-item`);
 
-let target = document.getElementById("menu-target");
+let target = document.querySelector("#menu-target");
 
-
+// for (let tab of tabs) {
+// 	tab.onclick = () => {
+// 		 console.log("tab");
+// 	target.scrollIntoView({behavior: 'smooth'});
+// }
+// }
 
 
 kuvanaClick.addEventListener("click", function() {
